@@ -5,19 +5,23 @@
  */
 
 body {
-  background-color: #ff7500;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
+  background: #f4511e ; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #f4511e, #e64a19);
+  background: -moz-linear-gradient(right, #f4511e , #e64a19);
+  background: -o-linear-gradient(right, #f4511e , #e64a19);
+  background: linear-gradient(to left, #f4511e , #e64a19);
     
   /* Set the top margin and everything will be placed underneath */  
   margin-top: 80px;
+}
+
+.Name {
+    font-size: 23px;
+    font-family: 'Merriweather', serif;
 }
 
 .logo {
 	float: left;
 	width: 100px;
 	height: 100px;
-	
 }
