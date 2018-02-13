@@ -16,3 +16,17 @@ h1 {
     font-size: 23px;
     font-family: 'Merriweather', serif;
 }
+
+.logo {
+	width: 250px;
+	height: 250px;
+}
+
+.splash {
+	background-color: white;
+}
+
+.align-center {
+  text-align: center;
+}
+
