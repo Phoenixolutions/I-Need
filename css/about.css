@@ -10,13 +10,17 @@ body {
   padding-left: 40px;
 }
 
+div {
+  border-radius: 10px;
+}
+
 h1 {
     color: blueviolet;
 }
 
 .Name {
     font-size: 23px;
-    font-family: 'Merriweather', serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .logo {
