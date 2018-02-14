@@ -14,10 +14,6 @@ div {
   border-radius: 10px;
 }
 
-h1 {
-    color: blueviolet;
-}
-
 .Name {
     font-size: 23px;
     font-family: 'Roboto Condensed', sans-serif;
@@ -35,4 +31,11 @@ h1 {
 .align-center {
   text-align: center;
 }
+
+.question {
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+
 

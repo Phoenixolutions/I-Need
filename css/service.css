@@ -5,6 +5,7 @@ body {
   background: -o-linear-gradient(right, #f4511e , #e64a19);
   background: linear-gradient(to left, #f4511e , #e64a19);
   margin-top: 80px;
+  margin-bottom: 20px;
   padding-right: 40px; 
   padding-left: 40px;
 }
