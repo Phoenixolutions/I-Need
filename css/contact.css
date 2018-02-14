@@ -1,17 +1,31 @@
 body {
-  margin-top: 80px;
   background: #f4511e ; /* fallback for old browsers */
   background: -webkit-linear-gradient(right, #f4511e, #e64a19);
   background: -moz-linear-gradient(right, #f4511e , #e64a19);
   background: -o-linear-gradient(right, #f4511e , #e64a19);
   background: linear-gradient(to left, #f4511e , #e64a19);
+  margin-top: 80px;
+  margin-bottom: 20px;
+  padding-right: 40px; 
+  padding-left: 40px;
 }
 
-h2 {
-    color: orange;
+div {
+  border-radius: 10px;
 }
 
 .Name {
     font-size: 23px;
     font-family: 'Roboto Condensed', sans-serif;
+}
+
+.splash {
+	background-color: white;
+}
+
+.align-center {
+  text-align: center;
+
+ul.change {
+	list-style-type: none;
 }
