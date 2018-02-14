@@ -104,6 +104,6 @@ body {
 }
 
 .Name {
-    font-size: 23px;
+    font-size: 23px !important;
     font-family: 'Roboto Condensed', sans-serif;
 }
