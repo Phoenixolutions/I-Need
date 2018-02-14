@@ -25,7 +25,18 @@ div {
 
 .align-center {
   text-align: center;
+}
 
-ul.change {
+li {
 	list-style-type: none;
+}
+
+p {
+  text-decoration: underline;
+}
+
+.categories {
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
 }
