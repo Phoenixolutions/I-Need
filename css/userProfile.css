@@ -1,0 +1,13 @@
+body {
+  background: #f4511e ; /* fallback for old browsers */
+  background: -webkit-linear-gradient(right, #f4511e, #e64a19);
+  background: -moz-linear-gradient(right, #f4511e , #e64a19);
+  background: -o-linear-gradient(right, #f4511e , #e64a19);
+  background: linear-gradient(to left, #f4511e , #e64a19); 
+}
+
+.custom {
+    background: white;
+    border-radius: 10px;
+    padding: 5px;
+}
