@@ -35,8 +35,25 @@ p {
   text-decoration: underline;
 }
 
-.categories {
-    border-radius: 10px;
+/* Custom contact form */
+.contactcustom {
+     border-radius: 10px;
     padding: 5px;
     text-align: center;
+}
+
+.contact-form input, .contact-form textarea {
+    font-size: 17px;
+    width: 100%;
+    padding: 15px 20px;
+    border: 2px solid #9e9e9e;
+    margin: 10px 0px;
+	color:#3b74af;
+}
+
+.contact-form .button {
+    background: #3b74af;
+    color: #FFF;
+    cursor: pointer;
+    border:none;
 }
