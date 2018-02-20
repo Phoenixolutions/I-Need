@@ -4,6 +4,7 @@ body {
   background: -moz-linear-gradient(right, #f4511e , #e64a19);
   background: -o-linear-gradient(right, #f4511e , #e64a19);
   background: linear-gradient(to left, #f4511e , #e64a19); 
+    
 }
 
 .custom {
@@ -16,4 +17,14 @@ body {
    
     margin: 20px 20px 20px 20px;
     
+}
+
+.splash {
+	background-color: white;
+    padding: 5px;
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    margin: 20px auto 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
