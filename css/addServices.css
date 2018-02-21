@@ -2,7 +2,7 @@
 .gallery-title
 {
     font-size: 36px;
-    color: #42B32F;
+    color: white;
     text-align: center;
     font-weight: 500;
     margin-bottom: 70px;
@@ -13,7 +13,7 @@
     width: 7.5%;
     left: 46.5%;
     height: 45px;
-    border-bottom: 1px solid #5e5e5e;
+    border-bottom: 2px solid black;
 }
 .filter-button
 {
@@ -48,8 +48,10 @@
 
 .gallery_product
 {
-    margin-bottom: 30px;
-    width: 350px;
-    
+    padding-bottom: 50px; 
+}
+
+.scrunch {
+    align-items: center;
 }
 
