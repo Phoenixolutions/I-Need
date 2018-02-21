@@ -55,3 +55,8 @@
     align-items: center;
 }
 
+button {
+    background: transparent; 
+    border: none;
+}
+

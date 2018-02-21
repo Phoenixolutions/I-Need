@@ -4,3 +4,8 @@ function myFunction() {
    document.getElementById("myDropdown").classList.toggle("Show")
 }
 
+ $(function() {
+    $('#profile-image1').on('click', function() {
+        $('#profile-image-upload').click();
+    });
+});      
