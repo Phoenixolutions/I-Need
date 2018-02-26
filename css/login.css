@@ -1,21 +1,47 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
+.inline{
+  display: inline-block;
+}
+
+.widthPer35{
+  width: 35% !important;
+}
+
+.widthPer15{
+  width: 15% !important;
+}
+
+.widthPer47{
+  width: 47% !important;
+}
+
+.widthPer30{
+  width: 32% !important;
+}
+
+select{
+  display: block;
+  margin-bottom: 15px;
+  color: gray;
+}
+
 .login-page {
-  width: 360px;
-  padding: 8% 0 0;
+  width: 450px;
+  padding: 100px 0 0;
   margin: auto;
 }
 .login-page-form {
   position: relative;
   z-index: 1;
   background: #FFFFFF;
-  max-width: 360px;
-  margin: 0 auto 100px;
+  max-width: 450px;
+  margin: 0 auto 0;
   padding: 45px;
   text-align: center;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
-.login-page-form input {
+.login-page-form input, select {
   font-family: "Roboto", sans-serif;
   outline: 0;
   background: #f2f2f2;
