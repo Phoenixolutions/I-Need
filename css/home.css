@@ -26,6 +26,17 @@ body {
 	height: 100px;
 }
 
+.flex{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.bgwhite{
+  background-color: white;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  margin: auto 12px auto 12px;
+}
+
 #bg-overlay{
   position:fixed;
   display: none;
