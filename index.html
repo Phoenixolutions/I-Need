@@ -137,8 +137,8 @@
       </div>
           
     <!-- /.row -->
-
       <div class="row">
+        
         <div class="col-sm-4 my-4">
           <div class="card">
             <img class="card-img-top" src="http://placehold.it/300x200" alt="">
@@ -148,7 +148,7 @@
               <p class="card-text">[Date @ Time]</p>
             </div>
             <div class="card-footer">
-              <a href="#" class="btn btn-primary">Check it out!</a>
+              <button class="btn btn-primary" onclick="overlayOn()">Check it out!</button>
             </div>
           </div>
         </div>
@@ -162,7 +162,7 @@
               <p class="card-text">[Date @ Time]</p>
             </div>
             <div class="card-footer">
-              <a href="#" class="btn btn-primary">Check it out!</a>
+              <button class="btn btn-primary" onclick="overlayOn()">Check it out!</button>
             </div>
           </div>
         </div>
@@ -176,13 +176,60 @@
               <p class="card-text">[Date @ Time]</p>
             </div>
             <div class="card-footer">
-              <a href="#" class="btn btn-primary">Check it out!</a>
+              <button class="btn btn-primary" onclick="overlayOn()">Check it out!</button>
             </div>
           </div>
         </div>
 
       </div>
       <!-- /.row -->
+        
+      <!-- overlay -->
+      <div id="bg-overlay">
+        
+        <div id="overlay">
+          
+          <button class="closebtn" onclick="overlayOff()">
+            <img class="closeimg" src="img/closebtn1.png" alt="Close">
+          </button>
+          
+          <div class="item">
+            <img class="overlay-img card-img-top" src="http://placehold.it/300x200" alt="">
+            <h2>[Category]</h2>
+            <h3>[Subcategory]</h3>
+            <p> [Here is a short description of the service that is being offered and some other infomration that might be necessary.]</p>
+            <h5> [Time: ]</h5>
+            <h5> [Date: ]</h5>
+            <a href="#" class="btn btn-primary">Accept Request</a>
+          </div>
+          
+          <div class="user">
+            <img class="overlay-img card-img-top" src="img/profile.png" alt="">
+            <h2> [User's Name]</h2>
+            <h4>[Location]?</h4>
+            <h4> *Rating System* </h4>
+            <h6> Link to reviews?</h6>
+            <h4> [Skills]</h4>
+            <p> Short bio about user</p>
+            <a href="#" class="btn btn-primary">Contact [User]</a>
+            
+          </div>
+          
+          
+          
+        </div>
+      </div>
+        
+      <script>
+        function overlayOn(){
+          document.getElementById("bg-overlay").style.display = "block";
+        }
+        
+        function overlayOff(){
+          document.getElementById("bg-overlay").style.display = "none";
+        }
+      </script>
+      <!-- /.overlay -->
 
     </div>
     <!-- /.container -->
