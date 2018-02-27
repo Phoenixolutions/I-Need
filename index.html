@@ -14,7 +14,6 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="css/home.css" rel="stylesheet">
     <link href="css/header.css" rel="stylesheet">
     <link href="css/categorybar.css" rel="stylesheet">
@@ -58,6 +57,7 @@
     
    <!-- Category Bar -->
    <!-- Using categorybar.css -->
+  <div id="container">
    <div id='categorymenu'>
      <ul class='col-xs-6'>
        <li class='active has-sub'><a href='#'><span>Family</span></a>
@@ -104,10 +104,14 @@
          <li><a href='#'><span>College Subjects</span></a></li>
       </ul>
     </li>
-  
+    <div id="overlay" onclick="off()"></div>
+    <div class="btn-group" role="group">
+       <button onclick="on()" type="button" class="btn btn-default"><i class="fas fa-edit"></i> Create Task</button>
+    </div>
+
   </ul>
  </div>
-
+</div>
 <header class="business-header">
       <div class="container">
           <div class="centered">I Need</div>
@@ -236,9 +240,18 @@
  
 
     <!-- Bootstrap core JavaScript -->
+     <script>
+     function on() {
+        document.getElementById("overlay").style.display = "block";
+    }
+
+    function off() {
+        document.getElementById("overlay").style.display = "none";
+    }
+    </script> 
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   </body>
 
 </html>

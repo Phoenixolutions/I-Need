@@ -17,6 +17,7 @@
     <link href="css/service.css" rel="stylesheet">
     <link href="css/header.css" rel="stylesheet">
     <link href="css/categorybar.css" rel="stylesheet">
+    <link href="css/createTask.css" rel="stylesheet">
 
   </head>
 
@@ -56,6 +57,7 @@
     
     <!-- Category Bar -->
    <!-- Using categorybar.css -->
+
    <div id='categorymenu'>
      <ul class='col-xs-6'>
   
@@ -103,10 +105,57 @@
          <li><a href='#'><span>College Subjects</span></a></li>
       </ul>
     </li>
-  
+    
+    <div id="overlay" onclick="on()">
+        <div class="container"> 
+        <h1>Request form</h1>
+        <form class="form-background">
+            <h2>What service do you need?</h2>
+             <div class="form-group">
+             <label for="Creatingatask">Pick your Service</label>
+            <select class="form-control">Pick Main Service
+                <option>Family</option>
+                <option>Fitness</option>
+                <option>Home Maintenance</option>
+                <option>Technology</option>
+                <option>Tutoring</option>
+            </select>
+            </div>
+            <div class="form-group">
+            <label>Pick your subcategory</label>
+            <select class="form-control">
+                <option>Babysitter</option>
+                <option>Dog Sitter</option>
+                <option>Dog Walker</option>
+                <option>House Keeper</option>
+            </select>
+           </div> 
+            <div class="input-group mb-3 form-group">
+            <div class="input-group-prepend">
+            <div class="input-group-text ">
+            <input type="checkbox" aria-label="Checkbox for following text input">
+            </div>
+            </div>
+            <input type="text" class="form-control" aria-label="Text input with checkbox" placeholder="Type your name if you want immediate service">
+            </div>
+            
+            <div class="form-group">
+            <label for="exampleFormControlTextarea1">Give us some details:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Tell us about what you need..."></textarea>
+            </div>
+            <div class="form-group">
+                <button onclick="#" type="button" class="btn btn-default"><i class="far fa-thumbs-up"></i> Submit</button>
+            </div>
+        </form>
+     </div>      
+    </div>
+    <div class="btn-group" role="group">
+       <button onclick="on()" type="button" class="btn btn-default"><i class="fas fa-edit"></i> Create Task</button>
+    </div>
+
   </ul>
  </div>
-      
+     
 <header>
       <div class="container">
           <div class="">All Requests</div>
@@ -207,8 +256,27 @@
       
       
     <!-- Bootstrap core JavaScript -->
+    <script>
+    $(document).ready(function() {
+
+      // Initialize the plugin
+      $('#taskPopup').popup();
+
+    });
+  </script>
+    <script>
+          function on() {
+        document.getElementById("overlay").style.display = "block";
+    }
+
+    function off() {
+        document.getElementById("overlay").style.display = "none";
+    }
+    </script> 
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    
 
   </body>
 
