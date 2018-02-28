@@ -49,3 +49,22 @@ header{
     z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
     cursor: pointer; /* Add a pointer on hover */
 }
+
+.spacing {
+   margin-bottom: 25px;
+}
+
+.closebtn{
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 712;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.closeimg{
+  width: 25px;
+  height: 25px;
+}
