@@ -9,6 +9,12 @@ body {
   margin-top: 80px;
 }
 
+.outer{
+  max-width: 600px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .bgprofile{
   position: relative;
   background: linear-gradient(0, #FFFFFF 90%, #F0F0F0 10%);
@@ -34,14 +40,14 @@ body {
 }
 
 .profile-content{
-  left: 120px;
+  left: 170px;
   bottom: 70px;
 }
 
 .profile-fields{
   margin-top: 7px;
   padding: 0 5px 0 0 ;
-  width: 30%;
+  width: 40%;
   text-align: right;
 }
 
@@ -55,7 +61,7 @@ body {
 }
 
 .edit-btn{
-  margin-left: 100px;
+  margin-left: 250px;
 }
 
 .upload-btn{
