@@ -9,8 +9,69 @@ body {
   margin-top: 80px;
 }
 
-h4 {
-    color: black;
+.bgprofile{
+  position: relative;
+  background: linear-gradient(0, #FFFFFF 90%, #F0F0F0 10%);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  padding: 15px;
+  width: 120%;
+  right: 8%;
+}
+
+.profile-pic{
+  float: left;
+  margin-right: 100px;
+}
+
+.profile-pic img{
+  background-color: white;
+}
+
+.flex{
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.profile-content{
+  left: 120px;
+  bottom: 70px;
+}
+
+.profile-fields{
+  margin-top: 7px;
+  padding: 0 5px 0 0 ;
+  width: 30%;
+  text-align: right;
+}
+
+.profile-fields h6{
+  margin-bottom: 21px;
+}
+
+.profile-inputs{
+  padding: 0 0 0 5px ;
+  width: 40%;
+}
+
+.edit-btn{
+  margin-left: 100px;
+}
+
+.upload-btn{
+  margin-bottom: 5px;
+}
+
+input, textarea{
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 7.5px;
+  padding: 6px;
+  box-sizing: border-box;
+  font-size: 14px;
 }
 
 input.hidden {
@@ -20,19 +81,7 @@ input.hidden {
 
 #profile-image1 {
     cursor: pointer;
-    width: 100px;
-    height: 100px;
-	border:2px solid black;
-}
-
-.tital { 
-    font-size:16px; font-weight:500;
-}
-
-.bot-border { 
-    border-bottom:1px #f8f8f8 solid;  margin:5px 0  5px 0
-}
-
-.center {
-    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+	border: 2px solid lightgray;
 }

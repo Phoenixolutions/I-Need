@@ -8,7 +8,6 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="css/profile.css" rel="stylesheet">
-    <link href="css/home.css" rel="stylesheet">
     <link href="css/header.css" rel="stylesheet">
 
     <title>Profile page</title>
@@ -26,7 +25,7 @@
 
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active Name">
+            <li class="nav-item Name">
               <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item Name">
@@ -38,7 +37,7 @@
             <li class="nav-item Name">
               <a class="nav-link" href="contact.html">Contact</a>
             </li>
-            <li class="nav-item Name">
+            <li class="nav-item active Name">
               <a class="nav-link" href="profile.html">[User Profile]
                 <span class="sr-only">(current)</span></a>
             </li>
@@ -47,76 +46,67 @@
       </div>
     </nav>      
 
-      <div class="container">
-	   <div class="row">
+    <!-- Content -->
+      <div class="outer container">
+
+	   <div class=" bgprofile row">
         <div class="col-md-8 center">
-         <div class="panel panel-default">
-             
-            <div class="panel-heading">  
-              <h4>Welcome [user]</h4>
-            </div>
-             
-        <div  align="center"> 
-        <img alt="User Pic" src="img/placeholder.jpg" id="profile-image1" class="img-circle img-responsive"> 
-        <input id="profile-image-upload" class="hidden" type="file">
-        <div style="color:#999;" >click here to change profile image</div>
-    <!--Upload Image Js And Css-->
+          
+         <div class="flex">  
+            <div  class="profile-pic"> 
+              <img alt="User Pic" src="img/profile.png" id="profile-image1" class="img-circle img-responsive"> 
+              <input id="profile-image-upload" class="hidden" type="file">
+              <div style="color:#999;" >Edit Image</div>
+           </div>
+           <div>
+              <h4>[User's Name]</h4>
+            </div> 
+           <div>
+              <button class="edit-btn btn btn-primary">Edit</button>
+           </div>
         </div>
+
+    <div class="profile-content flex">      
+      <div class="profile-fields">
+        <h6>Email  &nbsp :</h6>
+        <h6>Username &nbsp :</h6>
+        <h6>Password &nbsp :</h6>
+        <h6>First Name &nbsp :</h6>
+        <h6>Middle Name &nbsp :</h6>
+        <h6>Last Name &nbsp :</h6>
+        <h6>Phone Number &nbsp :</h6>
+        <h6>Street Adddress &nbsp :</h6>
+        <h6>City &nbsp :</h6>
+        <h6>State &nbsp :</h6>
+        <h6>Zip &nbsp :</h6>
+        <h6>Skills &nbsp :</h6>
+        <h6>Resume &nbsp :</h6>
+        <h6>Bio &nbsp :</h6>
+      </div>
+          
+      <div class="profile-inputs">
+        <input type="text" placeholder="Email"/>
+        <input type="text" placeholder="Username"/>
+        <input type="password" placeholder="●●●●●●●●●●●●"/>
+        <input type="text" placeholder="First Name"/>
+        <input type="text" placeholder="Middle Name"/>
+        <input type="text" placeholder="Last Name"/>
+        <input type="text" placeholder="Phone Number"/>
+        <input type="text" placeholder="Street Address"/>
+        <input type="text" placeholder="City"/>
+        <input type="text" placeholder="State"/>
+        <input type="text" placeholder="Zip"/>
+        <input type="text" placeholder="Skills"/>
+        <button class="upload-btn btn btn-primary">Upload</button>
+        <textarea rows="8" cols="25">
+          At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies. 
+        </textarea>
+      </div>
+    </div>
             
-    <br>
-    <!-- /input-group -->
-        </div>
-            
-<div class="col-sm-6">
-    <h4><span>[Name]</span></h4>        
-</div>
-<div class="clearfix"></div>
-<hr style="margin:5px 0 5px 0;">
-    
-              
-<div class="col-sm-5 col-xs-6 tital " >First Name:</div><div class="col-sm-7 col-xs-6 ">[First name]</div>
-     <div class="clearfix"></div>
-<div class="bot-border"></div>
-            
-<div class="col-sm-5 col-xs-6 tital " >Middle Name:</div><div class="col-sm-7 col-xs-6 ">[Middle name]</div>
-     <div class="clearfix"></div>
-<div class="bot-border"></div>
-
-<div class="col-sm-5 col-xs-6 tital " >Last Name:</div><div class="col-sm-7">[Last name]</div>
-  <div class="clearfix"></div>
-<div class="bot-border"></div>
-
-<div class="col-sm-5 col-xs-6 tital " >Check out my resume:</div><div class="col-sm-7">[resume]</div>
-  <div class="clearfix"></div>
-<div class="bot-border"></div>
-
-<div class="col-sm-5 col-xs-6 tital " >A little about myself:</div><div class="col-sm-7">[About Me section]</div>
-
-  <div class="clearfix"></div>
-<div class="bot-border"></div>
-
-<div class="col-sm-5 col-xs-6 tital " >Times I am available:</div><div class="col-sm-7">[Available times]</div>
-
-  <div class="clearfix"></div>
-<div class="bot-border"></div>
-            
-
-<!--
-<div class="col-sm-5 col-xs-6 tital " ></div><div class="col-sm-7"></div>
-
- <div class="clearfix"></div>
-<div class="bot-border"></div>
-
-<div class="col-sm-5 col-xs-6 tital " ></div><div class="col-sm-7"></div>
-
- <div class="clearfix"></div>
-<div class="bot-border"></div>
-
-<div class="col-sm-5 col-xs-6 tital " ></div><div class="col-sm-7"></div>
--->
-</div>
-</div>
-</div> 
+    </div>
+  </div> <!-- /row -->
+</div> <!-- /container -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
