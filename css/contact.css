@@ -10,21 +10,16 @@ body {
   padding-left: 40px;
 }
 
-div {
-  border-radius: 10px;
-}
-
-
 .splash {
 	background-color: white;
     padding: 5px;
-    padding-bottom: 40px;
-    padding-top: 40px;
     position: relative;
     z-index: 1;
     background: #FFFFFF;
     margin: 20px auto 20px;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    padding-bottom: 40px;
+    padding-top: 40px;
 }
 
 .align-center {
