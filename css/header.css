@@ -4,3 +4,8 @@
   margin: 0px;
   padding: 0px;
 }
+
+.Name {
+    font-size: 23px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
