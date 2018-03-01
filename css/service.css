@@ -28,6 +28,11 @@ body {
   height: 100%;
 }
 
+#filter{
+  margin: 0;
+  float: left;
+}
+
 header{
   margin-top: 40px;
 }
