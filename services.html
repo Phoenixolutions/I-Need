@@ -4,9 +4,8 @@
 <head>
 
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="">
-<meta name="author" content="">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Requests</title>
 
@@ -36,9 +35,6 @@
                         </li>
                         <li class="nav-item active Name">
                             <a class="nav-link" href="services.html">Requests <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item Name">
-                            <a class="nav-link" href="about.html">About</a>
                         </li>
                         <li class="nav-item Name">
                             <a class="nav-link" href="contact.html">Contact</a>
@@ -156,7 +152,7 @@
       <div class="container">
         <h2>Check out the requests</h2>
         <h4 id="filter"> Filter by : &nbsp; </h4>
-        <button class="btn btn-primary active" onclick="filterSelection('all')">Show All</button>
+        <button class="btn btn-primary" onclick="filterSelection('all')">Show All</button>
         <button class="btn btn-primary" onclick="filterSelection('date')">By Date</button>
         <button class="btn btn-primary" onclick="filterSelection('location')">By Location</button>
         <button class="btn btn-primary" onclick="filterSelection('category')">By Category</button>
@@ -286,10 +282,12 @@
         document.getElementById("overlay").style.display = "none";
     }
 </script> 
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>  
 
 </body>
 
